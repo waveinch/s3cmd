@@ -982,7 +982,7 @@ class S3(object):
             ## Don't do any pre-processing
             return string
 
-        encoded = quote_plus(string, safe="~/")
+        encoded = quote(string, safe="~/")
         debug("String '%s' encoded to '%s'" % (string, encoded))
         return encoded
 
