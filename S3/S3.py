@@ -15,7 +15,7 @@ import mimetypes
 from xml.sax import saxutils
 from logging import debug, info, warning, error
 from stat import ST_SIZE
-from urllib import quote_plus
+from urllib import quote
 
 try:
     from hashlib import md5
